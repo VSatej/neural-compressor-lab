@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Nuxt / Node
+frontend/node_modules/
+frontend/.nuxt/
+frontend/.output/
+frontend/dist/
+
+# Generated results and model files
+results/*.wav
+results/*.pt
+results/*.png
+backend/data/
+
+# macOS
+.DS_Store
+
+# Environment secrets
+.env
+.env.*
+!.env.example
