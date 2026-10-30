@@ -1,0 +1,30 @@
+title: About Me
+description: My journey as a software engineer, from building products to exploring AI.
+content: |
+  Hi, I'm **Satej Vadakkath**, a Software Engineer with 5+ years of experience building web applications, backend systems, and data-driven products.
+
+  I'm currently pursuing my master's at Grenoble INP–Ensimag, specialising in Applied AI and Interactive Systems.
+
+  ### My Journey
+
+  I started my professional journey in 2020 as a founding software engineer at Botson Labs, working on IoT and energy-monitoring solutions for industrial applications.
+
+
+  Later, at Innoctive Technologies, I progressed from Senior Software Engineer to Technical Team Lead, building scalable enterprise applications, optimising infrastructure, and exploring AI-powered solutions.
+
+  ### What I Do
+
+  My interests lie at the intersection of **software engineering and artificial intelligence**. I enjoy working with python, full-stack technologies, cloud infrastructure, and machine learning to turn ideas into practical products.
+
+  ### Beyond Code
+
+  Outside work, I enjoy exploring new places, hiking in the mountains, playing badminton, and discovering new experiences.
+
+  I'm always open to interesting projects, collaborations, and opportunities to learn.
+
+  Feel free to explore my projects or get in touch!
+images:
+  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: My coffee workspace
+  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: My trip to Tokyo

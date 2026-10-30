@@ -1,0 +1,1 @@
+export { default } from "/Users/satej/Documents/neural-compressor-lab/frontend/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";
