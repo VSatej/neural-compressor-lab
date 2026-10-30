@@ -1,26 +1,59 @@
-
+```gitignore
+# ==============================
 # Python
+# ==============================
 __pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
+venv/
+env/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# Nuxt / Node
+# ==============================
+# Nuxt / Node.js
+# ==============================
 frontend/node_modules/
 frontend/.nuxt/
 frontend/.output/
 frontend/dist/
+frontend/.data/
+frontend/.cache/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
 
-# Generated results and model files
+# ==============================
+# Generated results and models
+# ==============================
 results/*.wav
 results/*.pt
 results/*.png
 backend/data/
 
-# macOS
-.DS_Store
+# ==============================
+# IDE and editor files
+# ==============================
+.idea/
+.vscode/
+*.swp
+*.swo
 
+# ==============================
+# macOS
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==============================
 # Environment secrets
+# ==============================
 .env
 .env.*
 !.env.example
+
