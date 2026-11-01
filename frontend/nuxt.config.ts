@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    baseURL: '/neural-compressor-lab/'
-  },
 
   modules: [
     '@nuxt/eslint',
@@ -17,12 +14,21 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
+  app: {
+    baseURL: '/neural-compressor-lab/'
+  },
 
   css: ['~/assets/css/main.css'],
 
   content: {
     experimental: {
       sqliteConnector: 'native'
+    }
+  },
+
+  runtimeConfig: {
+    public: {
+      apiBase: 'http://localhost:5000'
     }
   },
 
